@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="general.css">
+  <link rel="stylesheet" href="qlnv.css">
+  <title>Quản lý nhân viên</title>
+</head>
+
+<body>
+  <header class="header">
+    <h2 class="heading-secondary text-center">Quản lý nhân viên</h2>
+    <div class="back absolute">
+      <ion-icon name="arrow-back-outline" class="icon-back"></ion-icon>
+      <a href="#">Quay lại</a>
+    </div>
+  </header>
+  <table>
+    <thead>
+      <tr class="tb-heading">
+        <th class="th1">STT</th>
+        <th>Mã nhân viên</th>
+        <th class="th2">Tên nhân viên</th>
+        <th>Địa chỉ</th>
+        <th>SĐT</th>
+        <th>Tài khoản</th>
+        <th>Mật khẩu</th>
+        <th>Quyền</th>
+        <th class="th1"></th>
+        <th class="th1"></th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <th>1</th>
+        <td>NV001</td>
+        <td>Khoa</td>
+        <td>TPHCM</td>
+        <td>0855765901</td>
+        <td>khoa123</td>
+        <td>khoa321</td>
+        <td>Nhân viên bán hàng</td>
+        <td><button class="btn-1">Sửa</button></td>
+        <td><button class="btn-1">Xóa</button></td>
+      </tr>
+      <tr>
+        <th>2</th>
+        <td>NV002</td>
+        <td>Việt</td>
+        <td>Long An</td>
+        <td>0159753258</td>
+        <td>viet123</td>
+        <td>viet321</td>
+        <td>Thủ kho</td>
+        <td><button class="btn-1">Sửa</button></td>
+        <td><button class="btn-1">Xóa</button></td>
+      </tr>
+
+      <tr>
+        <th>3</th>
+        <td>NV003</td>
+        <td>Tứ</td>
+        <td>Vĩnh Long</td>
+        <td>0963852741</td>
+        <td>tu123</td>
+        <td>tu321</td>
+        <td>Admin</td>
+        <td><button class="btn-1">Sửa</button></td>
+        <td><button class="btn-1">Xóa</button></td>
+      </tr>
+      <tr>
+        <th>4</th>
+        <td>NV004</td>
+        <td>test</td>
+        <td>TPHCM</td>
+        <td>0333666777</td>
+        <td>new</td>
+        <td>123</td>
+        <td>Thủ kho</td>
+        <td><button class="btn-1">Sửa</button></td>
+        <td><button class="btn-1">Xóa</button></td>
+      </tr>
+
+    </tbody>
+  </table>
+  <div class="search-box">
+    <ion-icon name="search-outline" class="icon-search"></ion-icon>
+    <input type="text" placeholder="Nhập tên nhân viên cần tìm">
+  </div>
+  <div class="container">
+    <h3 class="text-center">Thêm nhân viên</h3>
+    <div class="grid grid--2-cols content-box">
+      <div class="item">
+        <div class="el">
+          <label for="">Mã nhân viên</label>
+          <input type="text" placeholder="Mã nhân viên">
+        </div>
+        <div class="el">
+          <label for="">Tên nhân viên</label>
+          <input type="text" placeholder="Tên nhân viên">
+        </div>
+        <div class="el">
+          <label for="">Địa chỉ</label>
+          <input type="text" placeholder="Địa chỉ">
+        </div>
+
+      </div>
+      <div class="item">
+        <div class="item--1">
+          <div class="el--2">
+            <label for="">SĐT</label>
+            <input class="input50" type="text" placeholder="Số điện thoại">
+          </div>
+          <div class="el--2-q">
+            <label for="">Quyền</label>
+            <select name="" id="">
+              <option value="">Nhân viên bán hàng</option>
+              <option value="">Thủ kho</option>
+              <option value="">Admin</option>
+            </select>
+          </div>
+        </div>
+        <div class="el">
+          <label for="">Tài khoản</label>
+          <input type="text" placeholder="Tài khoản">
+        </div>
+        <div class="el">
+          <label for="">Mật khẩu</label>
+          <input type="text" placeholder="Mật khẩu">
+        </div>
+
+      </div>
+    </div>
+    <div class="btn-box">
+      <button class="btn btn-luu">Lưu
+      </button>
+    </div>
+  </div>
+  </div>
+  <div class="modal ">
+    <ion-icon name="close-outline" class="close--icon"></ion-icon>
+    <h2 class="heading-secondary text-center mb-30">Bạn có chắc muốn xóa không?</h2>
+    <div class="box--btn">
+      <button class="btn btn--1">Có</button>
+      <button class="btn btn--1">Không</button>
+    </div>
+  </div>
+  <div class="overload "></div>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

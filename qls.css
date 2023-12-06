@@ -1,0 +1,172 @@
+.heading-secondary {
+  margin-bottom: 0;
+}
+
+.header {
+  padding: 3.2rem;
+}
+
+.back {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 5%;
+  left: 2%;
+}
+
+.icon-back {
+  width: 4.8rem;
+  height: 2.4rem;
+}
+
+a {
+  font-size: 2.4rem;
+  color: #000;
+}
+
+.tb-heading {
+  position: sticky;
+  top: 0;
+}
+
+
+table {
+  display: block;
+  width: 100%;
+  /* border: 1px solid #343a40; */
+  border-collapse: collapse;
+  text-align: left;
+  font-size: 18px;
+  height: 30rem;
+  overflow-y: scroll;
+}
+
+th,
+td {
+  /* border: 1px solid #343a40; */
+  padding: 16px 24px;
+  /* width: 25%; */
+}
+
+thead th {
+  background-color: #087f5b;
+  color: #fff;
+  width: 10%;
+  font-weight: 700;
+}
+
+thead .th1 {
+  width: 5%;
+}
+
+thead .th2 {
+  width: 15%;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #f8f9fa;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #e9ecef;
+}
+
+.item-img {
+  width: 5rem;
+  height: 5rem;
+}
+
+.search-box {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  margin: 1.6rem;
+  position: relative;
+}
+
+.icon-search {
+  width: 2.4rem;
+  height: 2.4rem;
+  position: absolute;
+  right: 8%;
+  top: 17%;
+}
+
+.container {
+  padding: 1.6rem;
+  /* background-color: #fff; */
+  /* border: 5px solid #087f5b; */
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.08);
+}
+
+.content-box {
+
+  column-gap: 3.2rem;
+}
+
+h3 {
+  font-size: 2.4rem;
+  margin-bottom: 2.4rem;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.el {
+  display: flex;
+  gap: 0.8rem;
+  align-items: center;
+  justify-content: center;
+}
+
+label {
+  font-size: 1.6rem;
+  width: 15%;
+}
+
+input {
+  padding: 0.8rem;
+  width: 85%;
+}
+
+.btn-luu {
+  margin-top: 2rem;
+  width: 10rem;
+  padding: 0.8rem;
+  cursor: pointer;
+  background-color: rgb(8, 127, 91);
+  box-shadow: 0 5px 10px 0 rgb(8, 127, 91, 0.5);
+  ;
+}
+
+.btn-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-1 {
+  width: 4.8rem;
+  height: 3.6rem;
+  border: none;
+  background-color: rgb(8, 127, 91);
+  color: #fff;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.box--btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6.4rem;
+}
+
+.btn--1 {
+  width: 50%;
+  background-color: rgb(8, 127, 91);
+  box-shadow: 0 5px 10px 0 rgb(8, 127, 91, 0.5);
+}

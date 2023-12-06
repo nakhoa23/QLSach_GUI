@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="general.css">
+  <link rel="stylesheet" href="blackfirday.css">
+  <title>Quản lý sách</title>
+</head>
+
+<body>
+  <header class="header">
+    <h2 class="heading-secondary text-center">Khuyến mãi blackfirday</h2>
+    <div class="back absolute">
+      <ion-icon name="arrow-back-outline" class="icon-back"></ion-icon>
+      <a href="#">Quay lại</a>
+    </div>
+
+  </header>
+  <div class="sub-heading">
+    <div class="text--content">
+      <p><span>Ngày áp dụng: </span> Thứ Sáu, 24 tháng 11, 2023</p>
+    </div>
+    <div class="box--btn">
+      <button class="btn">Thêm sách</button>
+
+    </div>
+  </div>
+  <h3 class="text-center">Các loại sách được áp dụng khuyến mãi</h3>
+  <table>
+    <thead>
+      <tr class="tb-heading">
+        <th class="th1">STT</th>
+        <th>Trang bìa</th>
+        <th>Mã sách</th>
+        <th class="th2">Tên sách</th>
+        <th>Thể loại</th>
+        <th>Tác giả</th>
+        <th>NXB</th>
+        <th>Giá</th>
+        <th>Giá KM</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <th>1</th>
+        <td><img src="./img/liqua.jpg" alt="dacnhantam" class="item-img-1"></td>
+        <td>S001</td>
+        <td>Lì Quá Để Nói Quài</td>
+        <td>Truyện ngắn</td>
+        <td>Anh Cầm Fact</td>
+        <td>NXB Hà Nội</td>
+        <td>66.000 vnđ</td>
+        <td>33.000 vnđ</td>
+      </tr>
+      <tr>
+        <th>2</th>
+        <td><img src="./img/caycamngot.jpg" alt="Cây cam ngọt của tôi" class="item-img-1"></td>
+        <td>S002</td>
+        <td>Cây cam ngọt của tôi</td>
+        <td>Tiểu thuyết</td>
+        <td>José Mauro de Vasconcelos</td>
+        <td>NXB Hội nhà văn</td>
+        <td>86.000 vnđ</td>
+        <td>43.000 vnđ</td>
+      </tr>
+      <tr>
+        <th>3</th>
+        <td><img src="./img/nhagiakim.jpg" alt="Nhà giả kim" class="item-img-1"></td>
+        <td>S003</td>
+        <td>Nhà giả kim</td>
+        <td>Tiểu thuyết</td>
+        <td>Paulo Coelho</td>
+        <td>NXB Hội nhà văn</td>
+        <td>63.000 vnđ</td>
+        <td>31.500 vnđ</td>
+      </tr>
+      <tr>
+        <th>4</th>
+        <td><img src="./img/nguoi-trong-luoi.jpg" alt="Tam quốc diễn nghĩa" class="item-img-1"></td>
+        <td>S004</td>
+        <td>Người Trong Lưới</td>
+        <td>Trinh Thám</td>
+        <td>Chan Ho Kei</td>
+        <td>NXB Hồng Đức</td>
+        <td>170.000 vnđ</td>
+        <td>85.000 vnđ</td>
+      </tr>
+      <tr>
+        <th>5</th>
+        <td><img src="./img/thon-tam-mo---bia-1.jpg" alt="Tam quốc diễn nghĩa" class="item-img-1"></td>
+        <td>S005</td>
+        <td>Thôn Tám Mộ</td>
+        <td>Trinh Thám</td>
+        <td>Yokomizo Seishi</td>
+        <td>NXB Hồng Đức</td>
+        <td>200.000 vnđ</td>
+        <td>100.000 vnđ</td>
+      </tr>
+      <tr>
+        <th>6</th>
+        <td><img src="./img/toihocdaihoc.jpg" alt="Tam quốc diễn nghĩa" class="item-img-1"></td>
+        <td>S007</td>
+        <td>Tôi Học Đại Học</td>
+        <td>Tiểu thuyết</td>
+        <td>Nguyễn Ngọc Ký</td>
+        <td>NXB Tổng Hợp TPHCM</td>
+        <td>83.000 vnđ</td>
+        <td>41.500 vnđ</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="container-item-box hidden">
+    <div class="text-content">
+      <h2 class="heading-secondary text-center">Sách trong cửa hàng
+        <ion-icon name="close-outline" class="icon-in-box"></ion-icon>
+      </h2>
+
+    </div>
+    <table class="table2">
+      <thead>
+        <tr class="tb-heading">
+          <th class="th1">STT</th>
+          <th>Trang bìa</th>
+          <th>Mã sách</th>
+          <th class="th2">Tên sách</th>
+          <th>Thể loại</th>
+          <th>Tác giả</th>
+          <th>NXB</th>
+          <th>Giá</th>
+          <th>Giá KM</th>
+          <th></th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <th>1</th>
+          <td><img src="./img/liqua.jpg" alt="dacnhantam" class="item-img-1"></td>
+          <td>S001</td>
+          <td>Lì Quá Để Nói Quài</td>
+          <td>Truyện ngắn</td>
+          <td>Anh Cầm Fact</td>
+          <td>NXB Hà Nội</td>
+          <td>66.000 vnđ</td>
+          <td><input type="text" class="input-km"></td>
+          <td><button class="btn-1">Thêm</button></td>
+        </tr>
+        <tr>
+          <th>2</th>
+          <td><img src="./img/caycamngot.jpg" alt="Cây cam ngọt của tôi" class="item-img-1"></td>
+          <td>S002</td>
+          <td>Cây cam ngọt của tôi</td>
+          <td>Tiểu thuyết</td>
+          <td>José Mauro de Vasconcelos</td>
+          <td>NXB Hội nhà văn</td>
+          <td>86.000 vnđ</td>
+          <td><input type="text" class="input-km"></td>
+          <td><button class="btn-1">Thêm</button></td>
+        </tr>
+        <tr>
+          <th>3</th>
+          <td><img src="./img/nhagiakim.jpg" alt="Nhà giả kim" class="item-img-1"></td>
+          <td>S003</td>
+          <td>Nhà giả kim</td>
+          <td>Tiểu thuyết</td>
+          <td>Paulo Coelho</td>
+          <td>NXB Hội nhà văn</td>
+          <td>63.000 vnđ</td>
+          <td><input type="text" class="input-km"></td>
+          <td><button class="btn-1">Thêm</button></td>
+        </tr>
+        <tr>
+          <th>4</th>
+          <td><img src="./img/nguoi-trong-luoi.jpg" alt="Tam quốc diễn nghĩa" class="item-img-1"></td>
+          <td>S004</td>
+          <td>Người Trong Lưới</td>
+          <td>Trinh Thám</td>
+          <td>Chan Ho Kei</td>
+          <td>NXB Hồng Đức</td>
+          <td>170.000 vnđ</td>
+          <td><input type="text" class="input-km"></td>
+          <td><button class="btn-1">Thêm</button></td>
+        </tr>
+        <tr>
+          <th>5</th>
+          <td><img src="./img/thon-tam-mo---bia-1.jpg" alt="Tam quốc diễn nghĩa" class="item-img-1"></td>
+          <td>S005</td>
+          <td>Thôn Tám Mộ</td>
+          <td>Trinh Thám</td>
+          <td>Yokomizo Seishi</td>
+          <td>NXB Hồng Đức</td>
+          <td>200.000 vnđ</td>
+          <td><input type="text" class="input-km"></td>
+          <td><button class="btn-1">Thêm</button></td>
+        </tr>
+        <tr>
+          <th>6</th>
+          <td><img src="./img/tamquocdiennghia.jpg" alt="Tam quốc diễn nghĩa" class="item-img-1"></td>
+          <td>S006</td>
+          <td>Tam quốc diễn nghĩa</td>
+          <td>Tiểu thuyết</td>
+          <td>La Quán Trung</td>
+          <td>NXB Hồng Đức</td>
+          <td>432.000 vnđ</td>
+          <td><input type="text" class="input-km"></td>
+          <td><button class="btn-1">Thêm</button></td>
+        </tr>
+        <tr>
+          <th>7</th>
+          <td><img src="./img/toihocdaihoc.jpg" alt="Tam quốc diễn nghĩa" class="item-img-1"></td>
+          <td>S007</td>
+          <td>Tôi Học Đại Học</td>
+          <td>Tiểu thuyết</td>
+          <td>Nguyễn Ngọc Ký</td>
+          <td>NXB Tổng Hợp TPHCM</td>
+          <td>83.000 vnđ</td>
+          <td><input type="text" class="input-km"></td>
+          <td><button class="btn-1">Thêm</button></td>
+        </tr>
+
+      </tbody>
+    </table>
+  </div>
+  <div class="modal hidden">
+    <ion-icon name="close-outline" class="close--icon"></ion-icon>
+    <h2 class="heading-secondary text-center mb-0">Bạn có chắc muốn xóa không?</h2>
+    <div class="box--btn">
+      <button class="btn btn--1">Có</button>
+      <button class="btn btn--1">Không</button>
+    </div>
+  </div>
+  <div class="overload hidden"></div>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,62 @@
+.heading-secondary {
+  margin-bottom: 0;
+}
+
+.header {
+  padding: 3.2rem !important;
+  /* position: relative; */
+  display: block !important;
+}
+
+.back {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 40%;
+  left: 2%;
+}
+
+.icon-back {
+  width: 4.8rem;
+  height: 2.4rem;
+}
+
+a {
+  font-size: 2.4rem;
+  color: #000;
+}
+
+body::before {
+  height: 100vh !important;
+}
+
+.el {
+  padding-bottom: 3rem;
+}
+
+.box {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  height: calc(100vh - 98.4px);
+}
+
+.menu-container {
+  width: 136rem;
+
+}
+
+.el {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.heading-secondary {
+  font-size: 3.6rem;
+}
+
+.menu-container {
+  height: 70%;
+}

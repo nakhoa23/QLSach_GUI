@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="general.css">
+  <link rel="stylesheet" href="menu.css">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="icon-out-box">
+      <ion-icon name="log-out-outline" class="icon-out"></ion-icon>
+    </div>
+    <div class="hello">
+      <ion-icon name="person-outline" class="hello-icon"></ion-icon>
+      <span class="hello-name">Test123</span>
+    </div>
+    <img src="img/logo.png" alt="Ảnh login" class="logo-img">
+    <h1>BookStore Manager</h1>
+  </header>
+  <div class="grid grid--3-cols p-32 menu-container border">
+    <div class="el el-1">
+      <div class="item">
+        <ion-icon name="receipt-outline" class="menu-icon"></ion-icon>
+        <h2 class="heading-secondary ">Lập hóa đơn</h2>
+      </div>
+    </div>
+    <div class="el el-2">
+      <div class="item">
+        <ion-icon name="book-outline" class="menu-icon"></ion-icon>
+        <h2 class="heading-secondary">Quản lý sách</h2>
+      </div>
+    </div>
+    <div class="el el-3">
+      <div class="item">
+        <ion-icon name="reader-outline" class="menu-icon"></ion-icon>
+        <h2 class="heading-secondary">Lập phiếu nhập</h2>
+      </div>
+    </div>
+    <div class="el el-4">
+      <div class="item">
+        <ion-icon name="stats-chart-outline" class="menu-icon"></ion-icon>
+        <h2 class="heading-secondary">Thống kê</h2>
+      </div>
+    </div>
+    <div class="el el-5">
+      <div class="item">
+        <ion-icon name="pricetags-outline" class="menu-icon"></ion-icon>
+        <h2 class="heading-secondary">Thiết lập khuyến mãi</h2>
+      </div>
+    </div>
+    <div class="el el-6">
+      <div class="item">
+        <ion-icon name="people-circle-outline" class="menu-icon"></ion-icon>
+        <h2 class="heading-secondary">Quản lý nhân viên</h2>
+      </div>
+    </div>
+    <div class="el el-7">
+      <div class="item">
+        <ion-icon name="person-outline" class="menu-icon"></ion-icon>
+        <h2 class="heading-secondary">Quản lý khách hàng</h2>
+      </div>
+    </div>
+  </div>
+  <div class="modal hidden">
+    <ion-icon name="close-outline" class="close--icon"></ion-icon>
+    <h2 class="heading-secondary text-center mb-0 ">Bạn không có quyền truy cập vào</h2>
+  </div>
+  <div class="overload hidden"></div>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

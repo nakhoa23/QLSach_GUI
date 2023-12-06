@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="general.css">
+  <link rel="stylesheet" href="qlkh.css">
+  <title>Quản lý khách hàng</title>
+</head>
+
+<body>
+  <header class="header">
+    <h2 class="heading-secondary text-center">Quản lý khách hàng</h2>
+    <div class="back absolute">
+      <ion-icon name="arrow-back-outline" class="icon-back"></ion-icon>
+      <a href="#">Quay lại</a>
+    </div>
+  </header>
+  <table>
+    <thead>
+      <tr class="tb-heading">
+        <th class="th1">STT</th>
+        <th>Mã khách hàng</th>
+        <th class="th2">Tên khách hàng</th>
+        <th>Địa chỉ</th>
+        <th>SĐT</th>
+        <th>Tài khoản</th>
+        <th>Mật khẩu</th>
+        <th class="check">Vip</th>
+        <th class="th1"></th>
+        <th class="th1"></th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <th>1</th>
+        <td>KH001</td>
+        <td>Khoa</td>
+        <td>TPHCM</td>
+        <td>0185576590</td>
+        <td>khoa123</td>
+        <td>khoa321</td>
+        <td><input type="checkbox" name="" id=""></td>
+        <td><button class="btn-1">Sửa</button></td>
+        <td><button class="btn-1">Xóa</button></td>
+      </tr>
+      <tr>
+        <th>2</th>
+        <td>KH002</td>
+        <td>Việt</td>
+        <td>Long An</td>
+        <td>0147852369</td>
+        <td>viet123</td>
+        <td>viet321</td>
+        <td><input type="checkbox" name="" id=""></td>
+        <td><button class="btn-1">Sửa</button></td>
+        <td><button class="btn-1">Xóa</button></td>
+      </tr>
+
+      <tr>
+        <th>3</th>
+        <td>KH003</td>
+        <td>Tứ</td>
+        <td>Vĩnh Long</td>
+        <td>0123456789</td>
+        <td>tu123</td>
+        <td>tu321</td>
+        <td><input type="checkbox" name="" id=""></td>
+        <td><button class="btn-1">Sửa</button></td>
+        <td><button class="btn-1">Xóa</button></td>
+      </tr>
+      <tr>
+        <th>4</th>
+        <td>KH004</td>
+        <td>test</td>
+        <td>TPHCM</td>
+        <td>0147852369</td>
+        <td>test123</td>
+        <td>test321</td>
+        <td><input type="checkbox" name="" id=""></td>
+        <td><button class="btn-1">Sửa</button></td>
+        <td><button class="btn-1">Xóa</button></td>
+      </tr>
+
+    </tbody>
+  </table>
+  <div class="search-box">
+    <ion-icon name="search-outline" class="icon-search"></ion-icon>
+    <input type="text" placeholder="Nhập tên khách hàng cần tìm">
+  </div>
+  <div class="container">
+    <h3 class="text-center">Thêm khách hàng</h3>
+    <div class="grid grid--2-cols content-box">
+      <div class="item">
+        <div class="el">
+          <label for="">Mã khách hàng</label>
+          <input type="text" placeholder="Mã khách hàng">
+        </div>
+        <div class="el">
+          <label for="">Tên khách hàng</label>
+          <input type="text" placeholder="Tên khách hàng">
+        </div>
+        <div class="el">
+          <label for="">Địa chỉ</label>
+          <input type="text" placeholder="Địa chỉ">
+        </div>
+
+      </div>
+      <div class="item">
+        <div class="el">
+          <label for="">SĐT</label>
+          <input type="text" placeholder="Số điện thoại">
+        </div>
+        <div class="el">
+          <label for="">Tài khoản</label>
+          <input type="text" placeholder="Tác giả">
+        </div>
+        <div class="el">
+          <label for="">Mật khẩu</label>
+          <input type="text" placeholder="Nhà xuất bản">
+        </div>
+
+      </div>
+    </div>
+    <div class="btn-box">
+      <button class="btn btn-luu">Lưu
+      </button>
+    </div>
+  </div>
+  </div>
+  <div class="modal hidden">
+    <ion-icon name="close-outline" class="close--icon"></ion-icon>
+    <h2 class="heading-secondary text-center mb-30">Bạn có chắc muốn xóa không?</h2>
+    <div class="box--btn">
+      <button class="btn btn--1">Có</button>
+      <button class="btn btn--1">Không</button>
+    </div>
+  </div>
+  <div class="overload hidden"></div>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

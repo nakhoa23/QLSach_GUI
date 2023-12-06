@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.p-32 {
+  padding: 3.2rem;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.heading-secondary {
+  font-size: 3rem;
+  margin-bottom: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.mb-20 {
+  margin-bottom: 2rem;
+}
+
+.btn {
+  width: 100%;
+  padding: 1.6rem;
+  background-color: rgb(80, 129, 215);
+  color: #fff;
+  font-weight: 700;
+  border-radius: 8px;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 5px 10px 0 rgba(80, 129, 215, 0.5);
+  border: none;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.color-white {
+  color: white;
+}
+
+.relavtive {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  background-color: white;
+  padding: 6rem;
+  border-radius: 5px;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+  z-index: 10;
+  /* background-color: #ccc; */
+}
+
+.overload {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 1;
+}
+
+.mb-0 {
+  margin-bottom: 0;
+}
+
+.red {
+  color: #e03131;
+}
+
+.close--icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 3.6rem;
+  height: 3.6rem;
+  padding: 0.8rem;
+  cursor: pointer;
+}
+
+.mb-32 {
+  margin-bottom: 3.2rem;
+}
+
+
+.box--btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6.4rem;
+}
+
+.btn--1 {
+  width: 50%;
+  background-color: #087f5b;
+  box-shadow: 0 5px 10px 0 rgb(8, 127, 91, 0.5);
+}
+
+.pt-0 {
+  padding-top: 0;
+}

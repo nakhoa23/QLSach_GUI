@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="general.css">
+  <link rel="stylesheet" href="qls.css">
+  <title>Quản lý sách</title>
+</head>
+
+<body>
+  <header class="header">
+    <h2 class="heading-secondary text-center">Quản lý sách</h2>
+    <div class="back absolute">
+      <ion-icon name="arrow-back-outline" class="icon-back"></ion-icon>
+      <a href="#">Quay lại</a>
+    </div>
+  </header>
+  <table>
+    <thead>
+      <tr class="tb-heading">
+        <th class="th1">STT</th>
+        <th>Trang bìa</th>
+        <th>Mã sách</th>
+        <th class="th2">Tên sách</th>
+        <th>Thể loại</th>
+        <th>Tác giả</th>
+        <th>NXB</th>
+        <th>Giá</th>
+        <th>Số lượng</th>
+        <th class="th1"></th>
+        <th class="th1"></th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <th>1</th>
+        <td><img src="./img/liqua.jpg" alt="dacnhantam" class="item-img"></td>
+        <td>S001</td>
+        <td>Lì Quá Để Nói Quài</td>
+        <td>Truyện ngắn</td>
+        <td>Anh Cầm Fact</td>
+        <td>NXB Hà Nội</td>
+        <td>66.000 vnđ</td>
+        <td>51</td>
+        <td><button class="btn-1">Sửa</button></td>
+        <td><button class="btn-1">Xóa</button></td>
+      </tr>
+      <tr>
+        <th>2</th>
+        <td><img src="./img/caycamngot.jpg" alt="Cây cam ngọt của tôi" class="item-img"></td>
+        <td>S002</td>
+        <td>Cây cam ngọt của tôi</td>
+        <td>Tiểu thuyết</td>
+        <td>José Mauro de Vasconcelos</td>
+        <td>NXB Hội nhà văn</td>
+        <td>86.000 vnđ</td>
+        <td>15</td>
+        <td><button class="btn-1">Sửa</button></td>
+        <td><button class="btn-1">Xóa</button></td>
+      </tr>
+      <tr>
+        <th>3</th>
+        <td><img src="./img/nhagiakim.jpg" alt="Nhà giả kim" class="item-img"></td>
+        <td>S003</td>
+        <td>Nhà giả kim</td>
+        <td>Tiểu thuyết</td>
+        <td>Paulo Coelho</td>
+        <td>NXB Hội nhà văn</td>
+        <td>63.000 vnđ</td>
+        <td>12</td>
+        <td><button class="btn-1">Sửa</button></td>
+        <td><button class="btn-1">Xóa</button></td>
+      </tr>
+      <tr>
+        <th>4</th>
+        <td><img src="./img/nguoi-trong-luoi.jpg" alt="Tam quốc diễn nghĩa" class="item-img"></td>
+        <td>S004</td>
+        <td>Người Trong Lưới</td>
+        <td>Trinh Thám</td>
+        <td>Chan Ho Kei</td>
+        <td>NXB Hồng Đức</td>
+        <td>170.000vnđ</td>
+        <td>39</td>
+        <td><button class="btn-1">Sửa</button></td>
+        <td><button class="btn-1">Xóa</button></td>
+      </tr>
+      <tr>
+        <th>5</th>
+        <td><img src="./img/thon-tam-mo---bia-1.jpg" alt="Tam quốc diễn nghĩa" class="item-img"></td>
+        <td>S005</td>
+        <td>Thôn Tám Mộ</td>
+        <td>Trinh Thám</td>
+        <td>Yokomizo Seishi</td>
+        <td>NXB Hồng Đức</td>
+        <td>200.000vnđ</td>
+        <td>15</td>
+        <td><button class="btn-1">Sửa</button></td>
+        <td><button class="btn-1">Xóa</button></td>
+      </tr>
+
+    </tbody>
+  </table>
+  <div class="search-box">
+    <ion-icon name="search-outline" class="icon-search"></ion-icon>
+    <input type="text" placeholder="Nhập tên sách cần tìm">
+  </div>
+  <div class="container">
+    <h3 class="text-center">Thêm sách</h3>
+    <div class="grid grid--2-cols content-box">
+      <div class="item">
+        <div class="el">
+          <label for="">Mã sách</label>
+          <input type="text" placeholder="Mã sách">
+        </div>
+        <div class="el">
+          <label for="">Tên sách</label>
+          <input type="text" placeholder="Tên sách">
+        </div>
+        <div class="el">
+          <label for="">Thể loại</label>
+          <input type="text" placeholder="Thể loại">
+        </div>
+        <div class="el">
+          <label for="">Tác giả</label>
+          <input type="text" placeholder="Tác giả">
+        </div>
+      </div>
+      <div class="item">
+        <div class="el">
+          <label for="">Trang bìa</label>
+          <input type="file" placeholder="Tác giả">
+        </div>
+        <div class="el">
+          <label for="">Nhà xuất bản</label>
+          <input type="text" placeholder="Nhà xuất bản">
+        </div>
+        <div class="el">
+          <label for="">Giá</label>
+          <input type="text" placeholder="Giá">
+        </div>
+        <div class="el">
+          <label for="">Số lượng</label>
+          <input type="text" placeholder="Số lượng">
+        </div>
+
+      </div>
+    </div>
+    <div class="btn-box">
+      <button class="btn btn-luu">Lưu
+      </button>
+    </div>
+  </div>
+  </div>
+  <div class="modal hidden">
+    <ion-icon name="close-outline" class="close--icon"></ion-icon>
+    <h2 class="heading-secondary text-center mb-0">Bạn có chắc muốn xóa không?</h2>
+    <div class="box--btn">
+      <button class="btn btn--1">Có</button>
+      <button class="btn btn--1">Không</button>
+    </div>
+  </div>
+  <div class="overload hidden"></div>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

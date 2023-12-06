@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="general.css">
+  <title>Nhà sách</title>
+  <style>
+    body {
+      position: relative;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.6rem;
+      /* height: 100vh; */
+    }
+
+    body::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url("/img/backround.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center bottom;
+      background-attachment: fixed;
+      filter: blur(3px);
+      /* Độ mờ của background image */
+      z-index: -1;
+    }
+
+
+
+    .login-container {
+      background-color: #fff;
+      padding: 3.2rem;
+      column-gap: 3.2rem;
+      border-radius: 8px;
+      box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.08);
+    }
+
+    .login-img-box {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .login-img {
+      width: 40rem;
+      /* padding: 3.2rem 0; */
+    }
+
+    .login-content-box {
+      padding: 1.6rem 1.6rem 3.2rem 1.6rem;
+    }
+
+    .input {
+      width: 100%;
+      padding: 1.6rem;
+      margin-bottom: 2rem;
+      border-radius: 8px;
+      background-color: #f2f3f5;
+    }
+
+    input:last-child {
+      margin-bottom: 3rem;
+    }
+
+    label {
+      margin-bottom: 1rem;
+      display: inline-block;
+      font-size: 600;
+    }
+
+    .login-footer {
+      display: flex;
+      justify-content: space-between;
+      font-size: 1.6rem;
+    }
+
+    .login-forgot,
+    .login-register {
+      color: #2979ff;
+    }
+
+    span {
+      color: #999;
+    }
+
+    .footer span {
+      color: #e03131;
+      font-size: 1.6rem;
+    }
+
+    .waring {
+      width: 2.4rem;
+      height: 2.4rem;
+      color: #e03131;
+    }
+
+    .footer {
+      display: flex;
+      align-items: center;
+      justify-content: centers;
+      gap: 0.8rem;
+    }
+
+    .icon-close:hover {}
+  </style>
+</head>
+
+
+<body>
+  <div class="login-container grid grid--2-cols">
+    <div class="login-img-box">
+      <img src="img/logo.png" alt="Ảnh login" class="login-img">
+    </div>
+    <div class="login-content-box">
+      <h2 class="text-center heading-secondary">Đăng nhập</h2>
+      <form action="">
+        <div class="el">
+          <label for="">Tên đăng nhập</label>
+          <input type="text" placeholder="Tên đăng nhập" class="input">
+        </div>
+        <div class="el">
+          <label for="">Mật khẩu</label>
+          <input type="password" placeholder="Mật khẩu" class="input mb-20">
+        </div>
+        <button class="btn">Đăng nhập</button>
+        <div class="footer">
+          <ion-icon name="alert-outline" class="waring"></ion-icon>
+          <span>
+            Đăng nhập thất bại: sai tên tài khoản hoặc mật khẩu.</span>
+        </div>
+      </form>
+      <!-- <div class="login-footer">
+        <a href="" class="login-forgot">Quên mật khẩu?</a>
+        <div class="login-already">
+          <span>Bạn chưa có tài khoản?</span>
+          <a href="" class="
+          login-register">Đăng ký</a>
+        </div>
+      </div> -->
+    </div>
+  </div>
+  <div class="login-container grid grid--2-cols hidden">
+    <div class="login-img-box">
+      <img src="img/logo.png" alt="Ảnh login" class="login-img">
+    </div>
+    <div class="login-content-box">
+      <h2 class="text-center heading-secondary">Đăng ký</h2>
+      <form action="">
+        <div class="el">
+          <label for="">Tên đăng nhập</label>
+          <input type="text" placeholder="Tên đăng nhập" class="input">
+        </div>
+        <div class="el">
+          <label for="">Email</label>
+          <input type="text" placeholder="Tên đăng nhập" class="input">
+        </div>
+        <div class="el">
+          <label for="">Mật khẩu</label>
+          <input type="password" placeholder="Mật khẩu" class="input mb-20">
+        </div>
+        <button class="btn">Đăng nhập</button>
+
+      </form>
+      <div class="login-footer">
+        <a href="" class="login-forgot">Quên mật khẩu?</a>
+        <div class="login-already">
+          <span>Bạn chưa có tài khoản?</span>
+          <a href="" class="
+          login-register">Đăng ký</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

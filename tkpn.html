@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="general.css">
+  <link rel="stylesheet" href="tkpn.css">
+  <title>Phiếu nhập</title>
+</head>
+
+<body>
+
+  <header class="header">
+    <h2 class="heading-secondary text-center">Thống kê Phiếu Nhập</h2>
+    <div class="back absolute">
+      <ion-icon name="arrow-back-outline" class="icon-back"></ion-icon>
+      <a href="menu.html">Quay lại</a>
+    </div>
+  </header>
+  <div class="container">
+    <div class="box-input">
+      <div class="el-1">
+        <label for="">Ngày bắt đầu</label>
+        <input type="date" name="" id="">
+      </div>
+      <div class="el-1">
+        <label for="">Ngày kết thúc</label>
+        <input type="date" name="" id="">
+      </div>
+      <div class="el-1">
+        <label for="">Sắp xếp</label>
+        <select name="" id="">
+          <option value="">STT &darr;</option>
+          <option value="">STT &uarr;</option>
+          <option value="">Tổng tiền &uarr;</option>
+          <option value="">Tổng tiền &darr;</option>
+          <option value="">Ngày lập</option>
+        </select>
+      </div>
+      <div class="el-1">
+        <label for="">Tìm kiếm</label>
+        <select name="" id="">
+          <option value="">Mã Phiếu Nhập</option>
+          <option value="">STT</option>
+          <option value="">Ngày lập</option>
+          <option value="">Tổng tiền</option>
+        </select>
+        <input type="text" placeholder="Nhập mã phiếu nhập">
+      </div>
+    </div>
+  </div>
+  <div class="container-btn">
+    <button class="btn">Thống kê</button>
+  </div>
+  <table>
+    <thead>
+      <tr class="tb-heading">
+        <th class="th1">STT</th>
+        <th>Mã PN</th>
+        <th>Ngày lập</th>
+        <th class="th2">Tổng tiền</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <th>5</th>
+        <td>PN005</td>
+        <td>18/04/2022</td>
+        <td>8.378.000 vnđ</td>
+      </tr>
+      <!-- <tr>
+        <th>1</th>
+        <td>PN001</td>
+        <td>22/04/2022</td>
+        <td>619.000 vnđ</td>
+      </tr> -->
+      <!-- <tr>
+        <th>2</th>
+        <td>PN002</td>
+        <td>01/02/2022</td>
+        <td>728.000 vnđ</td>
+      </tr>
+
+      <tr>
+        <th>3</th>
+        <td>PN003</td>
+        <td>01/03/2022</td>
+        <td>847.000 vnđ</td>
+      </tr>
+      <tr>
+        <th>4</th>
+        <td>PN004</td>
+        <td>12/03/2022</td>
+        <td>312.000 vnđ</td>
+      </tr> -->
+
+
+
+    </tbody>
+  </table>
+  <div class="container-item-box">
+    <div class="text-content">
+      <h2 class="heading-secondary text-center">Phiếu nhập (PN005)
+        <ion-icon name="close-outline" class="icon-in-box"></ion-icon>
+      </h2>
+      <div class="content-box-text">
+        <div class="box-nv">
+          <div class="name-nv"><span class="span">Nhân viên: </span>Khoa (NV001)</div>
+          <div class="date"><span class="span">Ngày lập: </span> 18/4/2022</div>
+        </div>
+
+      </div>
+      <table class="table2">
+        <thead>
+          <tr class="tb-heading">
+            <th class="th1">STT</th>
+            <th class="th2">Trang bìa</th>
+            <th class="th2">Mã sách</th>
+            <th class="th3">Tên sách</th>
+            <th class="th2">Giá</th>
+            <th class="th10">Số lượng</th>
+            <th class="th2">Thành tiền</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <th>1</th>
+            <td><img src="./img/dacnhantam.jpg" alt="dacnhantam" class="item-img"></td>
+            <td>S005</td>
+            <td>Đắc nhân tâm</td>
+            <td>64.000 vnđ</td>
+            <td>25</td>
+            <td>1.600.000 vnđ</td>
+          </tr>
+          <tr>
+            <th>2</th>
+            <td><img src="./img/caycamngot.jpg" alt="Cây cam ngọt của tôi" class="item-img"></td>
+            <td>S002</td>
+            <td>Cây cam ngọt của tôi</td>
+            <td>86.000 vnđ</td>
+            <td>15</td>
+            <td>1.290.000 vnđ</td>
+          </tr>
+          <tr>
+            <th>3</th>
+            <td><img src="./img/thon-tam-mo---bia-1.jpg" alt="Nhà giả kim" class="item-img"></td>
+            <td>S008</td>
+            <td>Thôn Tám Mộ</td>
+            <td>114.000 vnđ</td>
+            <td>12</td>
+            <td>1.368.000 vnđ</td>
+          </tr>
+          <tr>
+            <th>4</th>
+            <td><img src="./img/haisophan.jpg" alt="Tam quốc diễn nghĩa" class="item-img"></td>
+            <td>S010</td>
+            <td>Hai Số Phận</td>
+            <td>120.000 vnđ</td>
+            <td>20</td>
+            <td>2.400.000 vnđ</td>
+          </tr>
+          <tr>
+            <th>5</th>
+            <td><img src="./img/toilabeto.jpg" alt="Tam quốc diễn nghĩa" class="item-img"></td>
+            <td>S011</td>
+            <td>Tôi Là Bêtô</td>
+            <td>86.000 vnđ</td>
+            <td>20</td>
+            <td>1.720.000 vnđ</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="footer">
+        <div class="sum"><span class="span">Tổng tiền: </span>8.378.000 vnđ</div>
+        <button class="btn btn--lap">Xuất phiếu nhập</button>
+      </div>
+    </div>
+  </div>
+  <div class="overload"></div>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
